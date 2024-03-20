@@ -1,7 +1,19 @@
-body {
-    font-family: 'Open Sans', sans-serif;
+body { /* Selektor, der auf das <body> HTML-Element abzielt */
+    font-family: 'Open Sans', sans-serif; /* Eigenschaft, die die Schriftart des <body> Elements auf 'Open Sans' setzt. Wenn 'Open Sans' nicht verfügbar ist, wird eine generische sans-serif Schriftart verwendet */
 }
 
-ul {
-    font-family: helvetica;
+ul { /* Selektor, der auf alle <ul> (unordered list) HTML-Elemente abzielt */
+    font-family: helvetica; /* Eigenschaft, die die Schriftart aller <ul> Elemente auf Helvetica setzt */
+}
+
+li { /* Selektor, der auf alle <li> (Listenelement) HTML-Elemente abzielt */
+    list-style: circle; /* Eigenschaft, die den Stil der Aufzählungszeichen aller <li> Elemente auf Kreis setzt */
+}
+
+.list { /* Selektor, der auf alle HTML-Elemente mit der Klasse 'list' abzielt */
+    list-style: square; /* Eigenschaft, die den Stil der Aufzählungszeichen aller Elemente mit der Klasse 'list' auf Quadrat setzt */
+}
+
+#msg { /* Selektor, der auf das HTML-Element mit der ID 'msg' abzielt */
+    font-family: 'Open Sans', sans-serif; /* Eigenschaft, die die Schriftart des Elements mit der ID 'msg' auf Monospace setzt */
 }
