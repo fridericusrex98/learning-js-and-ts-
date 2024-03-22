@@ -17,3 +17,4 @@ li { /* Selektor, der auf alle <li> (Listenelement) HTML-Elemente abzielt */
 #msg { /* Selektor, der auf das HTML-Element mit der ID 'msg' abzielt */
     font-family: 'Open Sans', sans-serif; /* Eigenschaft, die die Schriftart des Elements mit der ID 'msg' auf Monospace setzt */
 }
+
